@@ -10,7 +10,7 @@ gulp.task('database-connect',function() {
 });
 gulp.task('web-connect', function() {
   connect.server({
-  	root:'resources',
+  	root:'application',
     port: 8888
   });
 });
