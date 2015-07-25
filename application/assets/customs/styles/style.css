@@ -1,0 +1,36 @@
+.food-day-panel img {
+	width: 370px;
+	height: 200px;
+}
+
+.section-panel {
+	position: relative;
+}
+/*food-product*/
+.food-product .header-panel .cover-image img {
+	width: 360px;
+	height: 200px;
+}
+.food-product .header-panel .owner-image img {
+	width: 65px;
+	height: 65px;
+	border: 3px solid #FFF;
+	position: absolute;
+	right: 20px;
+  bottom: -30px;
+}
+.food-product  .detail-panel {
+	padding: 20px;
+}
+.food-product  .detail-panel button {
+	background-color: #CA8423;
+	border: 0;
+	border-radius: 0px;
+	width: 200px;
+	text-transform: uppercase;
+}
+.navbar-panel img {
+	width: 210px;
+	padding: 20px;
+}
+

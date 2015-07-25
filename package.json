@@ -1,0 +1,26 @@
+{
+  "name": "homecooking",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zondezatera/homecooking.git"
+  },
+  "author": "Kitti Pariyaakkarakul <zatera1920@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zondezatera/homecooking/issues"
+  },
+  "homepage": "https://github.com/zondezatera/homecooking",
+  "devDependencies": {
+    "gulp-connect": "^2.2.0",
+    "gulp-json-srv": "0.0.4"
+  },
+  "dependencies": {
+    "gulp": "^3.9.0"
+  }
+}
