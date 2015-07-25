@@ -1,3 +1,8 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700");
+        body {
+            font-family: 'Open Sans';
+        }
+
 .food-day-panel img {
 	width: 370px;
 	height: 200px;
@@ -33,7 +38,7 @@
 	position: relative;
 }
 .food-list-panel .header-panel .list-food .cover_image  {
-	width: 360px;
+	width: 100%;
 	height: 200px;
 }
 .food-list-panel .header-panel .list-food .price {
@@ -41,6 +46,8 @@
   top: 10px;
   right: 20px;
   color: #FFF;
+  font-size: 23px;
+  font-weight: bold;
 }
 .food-list-panel .header-panel .list-food .img-circle {
 	position: absolute;
@@ -52,6 +59,7 @@
 }
 .food-list-panel .detail-panel label  {
 	text-transform: uppercase;
+	line-height:0.1px;
 }
 .food-list-panel .detail-panel p  {
 }
@@ -92,6 +100,11 @@
   font-size: 25px;
 }
 .process-payment.complete .alert-success p {
+.detail-panel {
+	margin: 5px 0px 17px 5px;
+}
+
+.process-payment .alert-success p {
   padding: 15px;
 }
 .process-payment.complete .alert-success p span {

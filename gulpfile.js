@@ -7,6 +7,16 @@ var paths = {
 };
 
 
+gulp.task('browser-sync', function() {
+  browserSync({
+    server: {
+      baseDir : './',
+      index : 'index.html'
+    },
+    browser: 'google chrome'
+  });
+});
+
 gulp.task('database-connect',function() {
 	jsonServer.start({
       data: 'db.json',
