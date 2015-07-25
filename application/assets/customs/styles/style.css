@@ -81,32 +81,32 @@
 }
 
 /* process-payment  */
-.process-payment .alert-success {
+.process-payment.complete .alert-success {
 	border: 4px solid rgb(101,118,34);
 	margin-top: 30px;
   border-radius: 5px;
 }
-.process-payment .alert-success i {
+.process-payment.complete .alert-success i {
 	padding: 20px;
   line-height: 30px;
   font-size: 25px;
 }
-.process-payment .alert-success p {
+.process-payment.complete .alert-success p {
   padding: 15px;
 }
-.process-payment .alert-success p span {
+.process-payment.complete .alert-success p span {
 	display: block;
 }
-.process-payment .alert-success p span:last-child {
+.process-payment.complete .alert-success p span:last-child {
 	font-weight: bolder;
 }
-.process-payment .other-event {
+.process-payment.complete .other-event {
 	 text-align: center;
   padding: 10px;
   font-size: 17px;
   color: #767676;
 }
-.process-payment .other-event span{
+.process-payment.complete .other-event span{
 	padding-bottom: 3px;
   border-bottom: 1px solid #767676;
 }
