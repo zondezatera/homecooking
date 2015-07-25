@@ -6,6 +6,43 @@
 .section-panel {
 	position: relative;
 }
+
+/*navbar layout*/
+.navbar-panel img {
+	width: 220px;
+	padding: 15px;
+}
+/*search box*/
+
+
+/* food list component */
+.food-list-panel .header-panel .list-food {
+	position: relative;
+}
+.food-list-panel .header-panel .list-food .cover_image  {
+	width: 370px;
+	height: 200px;
+}
+.food-list-panel .header-panel .list-food .price {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #FFF;
+}
+.food-list-panel .header-panel .list-food .img-circle {
+	position: absolute;
+  bottom: -25px;
+  right: 0px;
+  width: 60px;
+  height: 60px;
+  border: 3px solid #FFF;
+}
+.food-list-panel .detail-panel label  {
+	text-transform: uppercase;
+}
+.food-list-panel .detail-panel p  {
+}
+
 /*food-product*/
 .food-product .header-panel .cover-image img {
 	width: 360px;
