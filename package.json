@@ -21,6 +21,8 @@
     "gulp-json-srv": "0.0.4"
   },
   "dependencies": {
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "gulp-less": "*"
   }
+  
 }
