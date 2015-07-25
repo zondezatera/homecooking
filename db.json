@@ -38,42 +38,34 @@
   ],
   "products": [
     {
-<<<<<<< HEAD
       "id": "1",
       "owener_id": "1",
-      "price": "200",
+      "price": "800",
       "pic_src": "./assets/images/food1.jpg",
       "title": "MONDAY : PAD THAI EXTRODINAIRE",
-      "dec": "5 - 9 pm Ladprao soi 41/1"
+      "dec": "5 - 9 pm Ladprao soi 41/1",
+      "amount": 10,
+      "event_detail":"This pad thai is the recipe that was past on for the 5 generations cooked my Pa noi. the famous homecooked chef with in Satorn."
     },
     {
-      "id": "1",
+      "id": "2",
       "owener_id": "1",
-      "price": "200",
-      "pic_src": "./assets/images/food1.jpg",
-      "title": "MONDAY : PAD THAI EXTRODINAIRE",
-      "dec": "5 - 9 pm Ladprao soi 41/1"
+      "price": "530",
+      "pic_src": "./assets/images/food2.jpg",
+      "title": "TUESDAY : BLASTING PANANG",
+      "dec": "1 - 4 pm Sathorn/Sliom",
+      "amount": 5,
+      "event_detail":"This AUTHENTIC KAKI  is the recipe that was past on for the 99 generations cooked my Pa noi. the famous homecooked chef with in Ladprao."
     },
     {
-      "id": "1",
+      "id": "3",
       "owener_id": "1",
-      "price": "200",
-      "pic_src": "./assets/images/food1.jpg",
-      "title": "MONDAY : PAD THAI EXTRODINAIRE",
-      "dec": "5 - 9 pm Ladprao soi 41/1"
+      "price": "670",
+      "pic_src": "./assets/images/food3.jpg",
+      "title": "WEDNESDAY : AUTHENTIC KAKI ",
+      "dec": "6 - 9 pm Ladprao soi 41/1",
+      "amount": 10,
+      "event_detail":"This AUTHENTIC KAKI  is the recipe that was past on for the 99 generations cooked my Pa noi. the famous homecooked chef with in Ladprao."
     },
-    {
-      "id": "1",
-      "owener_id": "1",
-      "price": "200",
-      "pic_src": "./assets/images/food1.jpg",
-      "title": "MONDAY : PAD THAI EXTRODINAIRE",
-      "dec": "5 - 9 pm Ladprao soi 41/1"
-=======
-      "id": "",
-      "owener_id": "",
-      "src": ""
->>>>>>> e2a52887d01928a33bf559336b545d4bdab40ebb
-    }
   ]
 }
