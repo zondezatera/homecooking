@@ -12,7 +12,7 @@ $(document).ready(function() {
         });
       });
     });
-  }else{
+  }else if ($('.food-product').length){
     var params = location.search;
     var jqxhr = $.getJSON( "http://127.0.0.1:3123/products"+params, function(product) {
       $.getJSON( "http://127.0.0.1:3123/owners?id="+product[0].owener_id, function(owner) {
@@ -23,9 +23,18 @@ $(document).ready(function() {
       	$('.food-product .detail-panel .datetime p ').text(product[0].dec);
       	$('.food-product .detail-panel .price p span ').text(product[0].price);
       	$('.food-product .detail-panel .event-detail p ').text(product[0].event_detail);
+      	$('.food-product .detail-panel button').parent().attr('href','/order.html'+params);
 				NProgress.done();
 				$('.food-product').find('.hide').removeClass('hide').addClass('animated fadeInLeft');
       });
+    });
+  } else {
+  	var params = location.search;
+    var jqxhr = $.getJSON( "http://127.0.0.1:3123/products"+params, function(product) {
+				NProgress.done();
+				console.log(product);
+				$('.process-payment.checkout .payment-detail label').text(product[0].title)
+				$('.payment').find('.hide').removeClass('hide').addClass('animated fadeInLeft');
     });
   }
 });
