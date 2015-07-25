@@ -68,6 +68,8 @@
         .feature_post_image {
             width: 100%;
             position: relative;
+            
+            
         }
         
         .cover_image {
@@ -81,7 +83,9 @@
             -webkit-object-position: center top;
             -moz-object-position: center top;
             -o-object-position: center top;
-
+            background-image: url("../image/Photo_filter.png");
+            background-blend-mode: multiply;
+            mix-blend-mode: multiply;
         }
         
         .price {
