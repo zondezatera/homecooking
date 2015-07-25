@@ -28,13 +28,15 @@ $(document).ready(function() {
 				$('.food-product').find('.hide').removeClass('hide').addClass('animated fadeInLeft');
       });
     });
-  } else {
+  } else if ($('.process-payment.checkout ').length) {
   	var params = location.search;
     var jqxhr = $.getJSON( "http://127.0.0.1:3123/products"+params, function(product) {
 				NProgress.done();
-				console.log(product);
-				$('.process-payment.checkout .payment-detail label').text(product[0].title)
-				$('.payment').find('.hide').removeClass('hide').addClass('animated fadeInLeft');
+				$('.process-payment.checkout .payment-detail label').text(product[0].title);
+				$('.payment').find('.hide').removeClass('hide').delay(9000).addClass('animated fadeInUp');
     });
+  } else {
+  	NProgress.done();
+  	$('.payment').find('.hide').removeClass('hide').delay(9000).addClass('animated fadeIn');
   }
 });
