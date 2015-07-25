@@ -13,14 +13,27 @@
 	padding: 15px;
 }
 /*search box*/
-
-
+.search-panel {
+	padding: 15px;
+}
+.search-panel .icon-addon {
+	position: relative;
+}
+.search-panel .icon-addon .form-control {
+	text-indent: 30px;
+	color: rgb(164,164,164);
+}
+.search-panel .icon-addon i {
+	position: absolute;
+	top:10px;
+	left: 15px;
+}
 /* food list component */
 .food-list-panel .header-panel .list-food {
 	position: relative;
 }
 .food-list-panel .header-panel .list-food .cover_image  {
-	width: 370px;
+	width: 360px;
 	height: 200px;
 }
 .food-list-panel .header-panel .list-food .price {
