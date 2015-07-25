@@ -5,7 +5,7 @@ $(document).ready(function() {
       $.each(json ,function(key,value){
         $.getJSON( "http://127.0.0.1:3123/owners?id="+value.owener_id, function(json) {
 						NProgress.done();
-            var tmp =   "<div class='hide'><a href=\"product.html?id="+value.id+"\" ><div class='row' id='row_'"+value.id+"><div class='col-xs-12'> <div class='header-panel'> <div class='row'><div class='list-food'> <img src='"+value.pic_src+"' class=\"cover_image\"> <div class=\"price\">"+value.price+" ฿</div><img src=\"."+json[0].src+"\" class=\"img-circle\"> </div> </div> </div> <div class='detail-panel'> <div class='row'> <div class='col-xs-12'><label>"+value.title+"</label> <p>"+value.dec+"</p> </div> </div> </div> </div> </div></a></div>";
+            var tmp =   "<div class='hide'><a href=\"product.html?id="+value.id+"\" ><div class='row' id='row_"+value.id+"'><div class='col-xs-12'> <div class='header-panel'> <div class='row'><div class='list-food'> <img src='"+value.pic_src+"' class=\"cover_image\"> <img src=\"."+json[0].src+"\" class=\"img-circle\"> </div> </div> </div> <div class='detail-panel'> <div class='row'> <div class='col-xs-12'><label>"+value.title+"</label> <p>"+value.dec+"</p> </div> </div> </div> </div> </div></a></div>";
             $(".food-list-panel").append(tmp);
             delay_key = key+1;
 						$('.food-days').find('.hide').removeClass('hide').addClass('animated fadeIn');
