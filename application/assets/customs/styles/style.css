@@ -89,14 +89,26 @@ body {
 .food-product  .detail-panel {
 	padding: 20px;
 }
-.food-product  .detail-panel button {
+.food-product  .detail-panel button , .process-payment .payment-choose button  {
 	background-color: #CA8423;
 	border: 0;
 	border-radius: 0px;
 	width: 200px;
 	text-transform: uppercase;
+	color: #FFF;
 }
 
+/**/
+.process-payment .payment-detail , .process-payment .payment-choose  {
+	padding: 10px;
+}
+
+.process-payment .payment-detail .amount {
+  padding: 10px 0px 10px 0px;
+  border: 2px solid;
+  width: 50px;
+  text-align: center;
+}
 /* process-payment  */
 .process-payment.complete .alert-success {
 	border: 4px solid rgb(101,118,34);
@@ -105,15 +117,14 @@ body {
 }
 .process-payment.complete .alert-success i {
 	padding: 20px;
-  line-height: 30px;
-  font-size: 25px;
+  line-height: 55px;
+  font-size: 33px;
 }
 .process-payment.complete .alert-success p {
-.detail-panel {
 	margin: 5px 0px 17px 5px;
 }
 
-.process-payment .alert-success p {
+.process-payment.complete .alert-success p {
   padding: 15px;
 }
 .process-payment.complete .alert-success p span {
@@ -128,7 +139,11 @@ body {
   font-size: 17px;
   color: #767676;
 }
-.process-payment.complete .other-event span{
+.process-payment.complete .other-event a {
+	text-decoration: none;
+}
+.process-payment.complete .other-event a span{
 	padding-bottom: 3px;
+	color: #767676;
   border-bottom: 1px solid #767676;
 }
