@@ -22,9 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.4.3",
     "bootstrap": "~3.3.5",
     "fontawesome": "~4.3.0",
-    "angular-ui-router": "~0.2.15"
   }
 }
