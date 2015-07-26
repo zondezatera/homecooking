@@ -15,12 +15,12 @@ body {
 
 /*navbar layout*/
 .navbar-panel img {
-	width: 220px;
-	padding: 15px;
+	width: 180px;
+	padding: 10px;
 }
 /*search box*/
 .search-panel {
-	padding: 15px;
+	/*padding: 15px;*/
 }
 .search-panel .icon-addon {
 	position: relative;
@@ -70,10 +70,11 @@ body {
 	text-transform: uppercase;
 	line-height:0.1px;
 	font-size: 16px;
-	color: rgb(184,184,184);
+	color: #545454;
+	font-weight: 600;
 }
 .food-list-panel .detail-panel p  {
-	color: rgb(164,164,164);
+	color: #545454;
 }
 
 /*food-product*/
@@ -89,20 +90,23 @@ body {
 	right: 20px;
   bottom: -30px;
 }
+.food-product .header-panel .owner-image {
+  cursor: pointer;
+}
 .food-product  .detail-panel {
 	padding: 20px;
 }
 .food-product  .detail-panel button , .process-payment .payment-choose button  {
 	background-color: #CA8423;
 	border: 0;
-	border-radius: 0px;
-	width: 200px;
+	border-radius: 3px;
+	width: 100%;
 	text-transform: uppercase;
 	color: #FFF;
 }
 .food-product  .detail-panel .map  {
 	width: 300px;
-	height: 200px;
+	height: 112px;
 	margin-bottom: 20px;
 }
 
@@ -111,6 +115,34 @@ body {
 	margin: 0;
 	padding: 0;
 }
+.food-product  .testimonial-panel label {
+	font-weight: 600;
+	font-size: 15px;
+}
+.food-product  .testimonial-panel .img-circle {
+	width: 70px;
+	padding:10px 10px 5px 10px;
+}
+.food-product  .testimonial-panel p , .food-product  .testimonial-panel a  {
+	padding:10px 10px 0px 10px;
+	margin: 0;
+}
+.food-product  .testimonial-panel .author {
+	font-weight: bold;
+	padding:0px 10px 10px 10px;
+}
+.food-product  .modal-panel .text-center {
+	padding:10px 10px 0px 10px;
+}
+.food-product  .modal-panel .profile {
+	width: 130px;
+}
+.food-product  .modal-panel  .detail-panel {
+	padding: 0px 20px 20px 20px;
+}
+.food-product  .modal-panel  .detail-panel button {
+	background-color: #969696;
+}
 
 /**/
 .process-payment.checkout .payment-detail , .process-payment.checkout .payment-choose  {
@@ -118,7 +150,7 @@ body {
 }
 .process-payment.checkout .payment-detail .amount {
   padding: 10px 0px 10px 0px;
-  border: 2px solid;
+  border: 2px solid #C16100;
   width: 50px;
   text-align: center;
 }

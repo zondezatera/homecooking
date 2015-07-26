@@ -22,8 +22,15 @@ $(document).ready(function() {
       	$('.food-product .detail-panel .title p ').text(owner[0].name);
       	$('.food-product .detail-panel .datetime p ').text(product[0].dec);
       	$('.food-product .detail-panel .price p span ').text(product[0].price);
+      	$('.food-product .detail-panel .amount p span ').text(product[0].amount);
       	$('.food-product .detail-panel .event-detail p ').text(product[0].event_detail);
       	$('.food-product .detail-panel button').parent().attr('href','/order.html'+params);
+      	// modal
+      	$('.food-product .modal-panel .profile ').attr('src',owner[0].src);
+      	$('.food-product .modal-panel .real-name ').text(owner[0].realname);
+      	$('.food-product .modal-panel .nick-name ').text(owner[0].name);
+      	console.log(owner[0]);
+      	$('.food-product .modal-panel p ').text(owner[0].detail);
 				NProgress.done();
 				$('.food-product').find('.hide').removeClass('hide').addClass('animated fadeInRight');
       });
@@ -39,4 +46,7 @@ $(document).ready(function() {
   	NProgress.done();
   	$('.payment').find('.hide').removeClass('hide').delay(9000).addClass('animated fadeIn');
   }
+  $('.food-product .header-panel .owner-image').on('click',function (e) {
+		$('#modal-profile').modal();
+	});
 });
