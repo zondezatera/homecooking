@@ -48,5 +48,22 @@ $(document).ready(function() {
   }
   $('.food-product .header-panel .owner-image').on('click',function (e) {
 		$('#modal-profile').modal();
+		e.preventDefault();
+	});
+	$('.process-payment.checkout .payment-choose .submit-panel button').on('click', function(e) {
+		e.preventDefault();
+		$.ajax({
+			url: "http://127.0.0.1:8000",
+			type: 'GET',
+		})
+		.done(function() {
+			console.log("success");
+		})
+		.fail(function() {
+			console.log("error");
+		})
+		.always(function() {
+			console.log("complete");
+		});
 	});
 });
