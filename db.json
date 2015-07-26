@@ -2,18 +2,24 @@
   "owners": [
     {
       "id": 1,
+      "realname": "Srisri Kwanskul",
       "name": "Pa Noi",
-      "src": "./assets/images/grandma1.png"
+      "src": "./assets/images/grandma1.png",
+      "detail": "Pa noi is knoew from her amazing home cooked meals,especially Pad Thai. She was born and raised in Sakonakorn and come to Bangkok to search for better carreer opportuniy until she retrieed 15 years ago and since then have been dedicating time to perfect to her cooking skill."
     },
     {
       "id": 2,
-      "name": "Pa Kim",
-      "src": "./assets/images/grandma2.png"
+      "realname": "Kittiya Nuoto",
+      "name": "Pa Jin",
+      "src": "./assets/images/grandma2.png",
+      "detail": "Pa noi is knoew from her amazing home cooked meals,especially Pad Thai. She was born and raised in Sakonakorn and come to Bangkok to search for better carreer opportuniy until she retrieed 15 years ago and since then have been dedicating time to perfect to her cooking skill."
     },
     {
       "id": 3,
-      "name": "Pa NaNa",
-      "src": "./assets/images/grandma3.png"
+      "realname": "Suo Jon",
+      "name": "Pa Kim",
+      "src": "./assets/images/grandma3.png",
+      "detail": "Pa noi is knoew from her amazing home cooked meals,especially Pad Thai. She was born and raised in Sakonakorn and come to Bangkok to search for better carreer opportuniy until she retrieed 15 years ago and since then have been dedicating time to perfect to her cooking skill."
     }
   ],
   "products": [
@@ -21,9 +27,9 @@
       "id": 1,
       "owener_id": 1,
       "price": 800,
-      "pic_src": "./assets/images/food1.jpg",
-      "title": "MONDAY : PAD THAI EXTRODINAIRE",
-      "dec": "5 - 9 pm Ladprao soi 41/1",
+      "pic_src": "./assets/images/food-1-e.png",
+      "title": "MONDAY, 5 - 9pm",
+      "dec": "Pad Thai Extrodinaire @ Ladprao soi 41/1",
       "amount": 10,
       "event_detail": "This pad thai is the recipe that was past on for the 5 generations cooked my Pa noi. the famous homecooked chef with in Satorn."
     },
@@ -31,9 +37,9 @@
       "id": 2,
       "owener_id": 2,
       "price": 530,
-      "pic_src": "./assets/images/food2.jpg",
-      "title": "TUESDAY : BLASTING PANANG",
-      "dec": "1 - 4 pm Sathorn/Sliom",
+      "pic_src": "./assets/images/food-2-e.png",
+      "title": "TUESDAY, 1 - 4 pm",
+      "dec": " Bombing Panang @ Sathorn/Sliom",
       "amount": 5,
       "event_detail": "This AUTHENTIC KAKI  is the recipe that was past on for the 99 generations cooked my Pa noi. the famous homecooked chef with in Ladprao."
     },
@@ -41,9 +47,9 @@
       "id": 3,
       "owener_id": 3,
       "price": 670,
-      "pic_src": "./assets/images/food3.jpg",
-      "title": "WEDNESDAY : AUTHENTIC KAKI ",
-      "dec": "6 - 9 pm Ladprao soi 41/1",
+      "pic_src": "./assets/images/food-3-e.png",
+      "title": "WEDNESDAY, 6 - 9 pm ",
+      "dec": "Authentic kaki",
       "amount": 10,
       "event_detail": "This AUTHENTIC KAKI  is the recipe that was past on for the 99 generations cooked my Pa noi. the famous homecooked chef with in Ladprao."
     }

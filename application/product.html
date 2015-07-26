@@ -42,38 +42,116 @@
 					<div class="col-xs-12">
 						<div class="title">
 							<label></label>
-							<p></p>
+							<div class="datetime">
+								<!-- <label>Where & When</label> -->
+								<p></p>
+							</div>
 						</div>
-						<div class="datetime">
-							<label>Where & When</label>
-							<p></p>
-						</div>
-						<div class="price">
-							<label>Price:</label>
-							<p>$<span></span></p>
+						<div class="row">
+							<div class="col-xs-6">
+								<div class="price">
+									<label>Price:</label>
+									<p>$<span></span></p>
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="amount">
+									<label>Available seats:</label>
+									<p><span></span></p>
+								</div>
+							</div>
 						</div>
 						<div class="event-detail">
 							<label>Event Detail:</label>
 							<p></p>
 						</div>
 						<div class="venue">
-							<img src="./assets/images/venue.png" style="width: 100%;height: 140px;"></img>
-							<p style="font-size:14px;margin-bottom:15px;">Pictures from the venue</p>
+							<img src="./assets/images/venue.png" style="width: 100%;height: 112px;"></img>
+							<p style="font-size:12px;margin-bottom:17px;font-style:italic;">Pictures from the venue</p>
+						</div>
+						<div class="">
+							<img src="./assets/images/people.png" style="width: 100%;"></img>
+							<p style="font-size:12px;margin-bottom:17px;font-style:italic;">12 people booked</p>
 						</div>
 						<div class="map">
-							<img  src="./assets/images/map.png" style="width: 100%;height: 140px;margin-bottom:15px;"></img>
+							<div id="map-canvas"></div>
+							<p style="font-size:12px;margin-bottom:17px;font-style:italic;"> Ladprao 41/1</p>
 						</div>
-						<div class="text-center">
-							<a href="/order.html"><button class="btn btn-lg btn-danger">Book now</button></a>
-						</div>
+
 					</div>
 				</div>
 			</section>
+			<section class="testimonial-panel">
+				<div class="row">
+					<div class="col-xs-12">
+						<label >Testimonial</label>
+					</div>
+				</div>
+					<div class="row">
+						<div class="col-xs-3">
+							<img src="./assets/images/guess_profile.png" alt="" class="img-circle">
+						</div>
+						<div class="col-xs-9">
+							<p>
+								"Pa noi's Pad Thai is the best Pad Thai I've ever had! Her house is warm and cozy. This is a great chance to meet fellow tourisits while enjoying authenic Thai food"
+							</p>
+							<div class="author">John</div>
+							<a href="#">See more</a>
+						</div>
+					</div>
+			</section>
+			<section class="detail-panel">
+				<div class="text-center">
+							<a href="/order.html"><button class="btn btn-lg btn-danger">Book now</button></a>
+						</div>
+			</section>
+		</section>
+		<section class="modal-panel">
+			<div class="modal fade" id="modal-profile" tabindex="-1" role="dialog" aria-labelledby="modal-profile-label">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-body">
+		      	<div class="row">
+		      		<div class="col-xs-12">
+		      			<div class="text-center">
+			      			<img src="" class="img-circle profile" >
+		      			</div>
+		      		</div>
+		      	</div>
+		      	<div class="row">
+		      		<div class="col-xs-12">
+		      		<div class="text-center">
+		      			<label ><span class="real-name"></span> (<span class="nick-name"></span>) </label>
+		      		</div>
+		      		</div>
+		      	</div>
+		      	<div class="row">
+		      		<div class="col-xs-12">
+		      			<div class="text-center">
+			      			<p></p>
+		      			</div>
+		      		</div>
+		      	</div>
+		      	<div  class="row">
+		      		<div class="col-xs-12">
+		      			<section class="detail-panel">
+									<div class="text-center">
+												<a href="/order.html"><button class="btn btn-lg ">Contact me</button></a>
+											</div>
+								</section>
+		      		</div>
+		      	</div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 		</section>
 	</div>
 	<script src="/assets/libraries/jquery/dist/jquery.min.js"></script>
 	<script src="/assets/libraries/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="/assets/libraries/nprogress/nprogress.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+	<script src="/assets/customs/scripts/init-geolocation.js"></script>
 	<script src="/assets/customs/scripts/scripts.js"></script>
 </body>
 </html>
