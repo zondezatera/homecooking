@@ -25,7 +25,7 @@ $(document).ready(function() {
       	$('.food-product .detail-panel .event-detail p ').text(product[0].event_detail);
       	$('.food-product .detail-panel button').parent().attr('href','/order.html'+params);
 				NProgress.done();
-				$('.food-product').find('.hide').removeClass('hide').addClass('animated fadeInLeft');
+				$('.food-product').find('.hide').removeClass('hide').addClass('animated fadeInRight');
       });
     });
   } else if ($('.process-payment.checkout ').length) {
