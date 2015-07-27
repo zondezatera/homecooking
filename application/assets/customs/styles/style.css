@@ -50,6 +50,16 @@ body {
 	mix-blend-mode: multiply;
 
 }
+.food-list-panel .header-panel .list-food .amount {
+	position: absolute;
+  top: 20px;
+  left: 0;
+  width: 80px;
+  text-align: left;
+  padding: 5px 15px 5px 15px;
+  background-color: #FF9700;
+  color: #FFF;
+}
 .food-list-panel .header-panel .list-food .price {
   position: absolute;
   top: 10px;

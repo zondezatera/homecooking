@@ -28,16 +28,18 @@
       "owener_id": 1,
       "price": 800,
       "pic_src": "./assets/images/food-1-e.png",
+      "pic_sub_src": "./assets/images/food-e2-1.png",
       "title": "MONDAY, 5 - 9pm",
       "dec": "Pad Thai Extrodinaire @ Ladprao soi 41/1",
       "amount": 10,
-      "event_detail": "This pad thai is the recipe that was past on for the 5 generations cooked my Pa noi. the famous homecooked chef with in Satorn."
+      "event_detail": "This pad thai is the recipe that was past on for the  5 generations cooked Pa noi, the famous homecooked chef with in Ladprao. In addition to Pad Thai, Pa noi will also serve amazing Nam Prik, Tod mun, Mee Krob, and then the meal will end with Thai dessert."
     },
     {
       "id": 2,
       "owener_id": 2,
       "price": 530,
       "pic_src": "./assets/images/food-2-e.png",
+      "pic_sub_src": "./assets/images/food-2-e.png",
       "title": "TUESDAY, 1 - 4 pm",
       "dec": " Bombing Panang @ Sathorn/Sliom",
       "amount": 5,
@@ -48,6 +50,7 @@
       "owener_id": 3,
       "price": 670,
       "pic_src": "./assets/images/food-3-e.png",
+      "pic_sub_src": "./assets/images/food-3-e.png",
       "title": "WEDNESDAY, 6 - 9 pm ",
       "dec": "Authentic kaki",
       "amount": 10,
